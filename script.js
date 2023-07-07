@@ -1,10 +1,5 @@
-function threeSum(arr, target) {
-// write your code here
-	let target=[];
-  for(let a = 0;a<arr.length;a++){
-	  target.push(arr[a].toString(2));
-  }
-	return target;
+function decimalToBinary(num) {
+  // Write your code here
 }
 
-module.exports = threeSum;
+window.decimalToBinary = decimalToBinary;
